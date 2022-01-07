@@ -14,7 +14,6 @@ public class Card {
         this.typeOfCard = typeOfCard;
     }
 
-
     public String getNumOfCard() {
         return numOfCard;
     }

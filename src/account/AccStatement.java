@@ -13,7 +13,6 @@ public class AccStatement extends Account {
         this.dateOfAccStatement = dateOfAccStatement;
     }
 
-
     public String getTitleOfAccStatement() {
         return titleOfAccStatement;
     }
@@ -38,5 +37,3 @@ public class AccStatement extends Account {
         this.dateOfAccStatement = dateOfAccStatement;
     }
 }
-
-

@@ -17,4 +17,3 @@ public class Client extends Person {
         this.creditRate = creditRate;
     }
 }
-

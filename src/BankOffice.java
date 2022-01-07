@@ -5,13 +5,11 @@ public class BankOffice {
     private String nameOfBankOffice;
     private String addressOfBankOffice;
 
-
     public BankOffice(String nameOfBankOffice, String addressOfBankOffice) {
         this.nameOfBankOffice = nameOfBankOffice;
         this.addressOfBankOffice = addressOfBankOffice;
 
     }
-
 
     public String getBankName() {
         return nameOfBankOffice;
@@ -28,7 +26,6 @@ public class BankOffice {
     public void setBankAddress(String bankAddress) {
         this.addressOfBankOffice = addressOfBankOffice;
     }
-
 
 }
 

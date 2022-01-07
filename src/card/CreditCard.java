@@ -7,7 +7,6 @@ public class CreditCard extends Card {
     public CreditCard(String numOfCard, String dateOfIssue, int pinCode, String typeOfCard) {
         super(numOfCard, dateOfIssue, pinCode, typeOfCard);
         countCreditCard++;
-
     }
 
 }
