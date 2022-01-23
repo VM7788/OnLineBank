@@ -27,5 +27,12 @@ public class BankOffice {
         this.addressOfBankOffice = addressOfBankOffice;
     }
 
+
+    public static BankOffice buildBankOffice() {
+        BankOffice bankOffice = new BankOffice("Банк нового поколения", "г. Москва");
+        //создание объекта класса BankOffice с заполненными атрибутами. //
+        return bankOffice;
+    }
+
 }
 
