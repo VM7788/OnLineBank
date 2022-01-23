@@ -1,4 +1,4 @@
-import credits.Credit;
+package BankOffice;
 
 public class BankOffice {
 
@@ -30,7 +30,7 @@ public class BankOffice {
 
     public static BankOffice buildBankOffice() {
         BankOffice bankOffice = new BankOffice("Банк нового поколения", "г. Москва");
-        //создание объекта класса BankOffice с заполненными атрибутами. //
+        //создание объекта класса BankOffice.BankOffice с заполненными атрибутами. //
         return bankOffice;
     }
 
